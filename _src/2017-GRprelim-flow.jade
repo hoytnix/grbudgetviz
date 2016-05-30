@@ -1,9 +1,9 @@
-.container 
+.container
   .row
     .intro.col-md-12
       h2 Cash Flow: The Preliminary 2017 Budget
       p This diagram depicts the flow of money through Grand Rapids' budget: from revenue sources (on the left), to the General Fund or various non-discretionary funds (in the center), and finally to the various city departments' expenses (on the right).
-      p 
+      p
         em Mouse over a flow line to highlight it; click on a bar to highlight all its flows.
   .row
     .col-md-3
@@ -28,10 +28,10 @@ script(src='js/flow.js', charset='utf-8')
 //- which is necessary to get a list of files in the directory
 | <script type='text/javascript'>
 |   var datafiles = [];
-- for file in public.data.proposed_1517_flow._contents
+- for file in public.data.fy1517GR_flow._contents
     | datafiles.push("
     = file
-    | ");    
+    | ");
 | </script>
 script.
     var years = []
@@ -63,7 +63,7 @@ script.
             filename = datafiles[file_i];
         years.reverse();
 
-        d3.csv("data/proposed_1517_flow/" + filename, function(error, data){
+        d3.csv("data/fy1517GR_flow/" + filename, function(error, data){
             if (error) {
                 console.log('error', error);
                 return false;
