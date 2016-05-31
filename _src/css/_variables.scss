@@ -10,6 +10,7 @@ $bootstrap-sass-asset-helper: (twbs-font-path("") != unquote('twbs-font-path("")
 
 
 $green-dark:            #004a37;
+$dark-grey:             #404040;
 $green-darker:          #014e3c;
 $teal:                  #00e2ae;
 $gold:                  #fae3b5;
@@ -18,23 +19,23 @@ $purple:                #6c0b61;
 
 $gray-pale:             #f9f9f9;
 $gray-dark:             #555;
-$gray-border:           #ddd; 
+$gray-border:           #ddd;
 
 
 // $brand-primary:         #fae3b5 !default;
 // $brand-primary:         #009DB0 !default; // blue
-$brand-primary:         $green-dark !default; // emerald
+$brand-primary:         $dark-grey !default; // grey
 
 //== Scaffolding
 //** Global textual link color.
-$link-color:            #009DB0 !default;
+$link-color:            #4d94ff !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 
 
 //== Typography
 $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$headings-font-family:    'Arvo', $font-family-sans-serif;
+$headings-font-family:    'Roboto', $font-family-sans-serif;
 $headings-line-height:    1.2;
 $headings-color:          $brand-primary;
 
@@ -75,7 +76,7 @@ $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // // Navbar brand label
 $navbar-default-brand-color:               $gray-dark !default;
-$navbar-default-brand-hover-color:         $green-dark !default;
+$navbar-default-brand-hover-color:         $gray-dark !default;
 // $navbar-default-brand-hover-bg:            transparent !default;
 
 // // Navbar toggle
