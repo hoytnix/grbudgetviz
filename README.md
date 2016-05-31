@@ -21,11 +21,11 @@ We are just kicking this project so check in here often, there will be many more
 
 We like working with friendly and respectful people, to that end we insist that all participants follow a [Code of Conduct](https://github.com/friendlycode/codeofconduct/blob/master/README.md). Please make sure you read our Code of Conduct before participating.
 
-Instructions from the original Oakland version can be [found here](https://github.com/friendlycode/openbudgetgr/blob/master/Install_instructions.md). We are in the process of localizing the instructions for the Grand Rapids version.
+Instructions from the original Oakland version can be [found here](https://github.com/friendlycode/openbudgetgr/blob/master/instructions.md). We are in the process of localizing the instructions for the Grand Rapids version.
 
 ## Project Details
 
-- OpenOakland's [Readme](https://github.com/friendlycode/openbudgetgr/blob/master/Oakland_README.md) with instructions for project.
+- OpenOakland's [Readme](https://github.com/openoakland/openbudgetoakland/blob/master/README.md) with instructions for project.
 
 
 
