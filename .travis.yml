@@ -10,7 +10,7 @@ install:
 - npm install -g harp@0.20.3
 
 script:
-- pushd _src && harp compile --output ../_site && popd
+- pushd _src && harp compile --output .. && popd
 
 after_success: >
   echo $TRAVIS_BRANCH; echo $TRAVIS_PULL_REQUEST;
@@ -21,7 +21,6 @@ after_success: >
     # Delete the current repository
     rm -rf .git ;
     # Rebuild the repository from the generated files and push to GitHub pages
-    cd _site ;
     git init ;
     git add . ;
     git commit -m "Deploy Travis CI build $TRAVIS_BUILD_NUMBER to GitHub pages" ;
