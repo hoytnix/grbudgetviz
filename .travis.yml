@@ -7,7 +7,7 @@ env:
   - secure: "TODO: replace this"
 
 install:
-- npm install -g harp
+- npm install -g harp@0.20.3
 
 script:
 - harp compile _src _site
