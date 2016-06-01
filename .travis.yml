@@ -10,7 +10,7 @@ install:
 - npm install -g harp@0.20.3
 
 script:
-- cd _src && harp compile ./ ../_site
+- pushd _src && harp compile --output ../_site && popd
 
 after_success: >
   echo $TRAVIS_BRANCH; echo $TRAVIS_PULL_REQUEST;
