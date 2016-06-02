@@ -12,8 +12,8 @@ We are developing a way to better understand the budget process for the City of 
 Current state of project in bold.
 
 - Discovery
-- **Alpha**
-- Beta
+- Alpha
+- **Beta**
 - Live
 
 ## How You Can Help
