@@ -18,7 +18,7 @@ Current state of project in bold.
 
 ## How You Can Help
 
-We are just kicking this project so check in here often, there will be many more ways as we progress. For now the best place is to check our open issues that we will be utilizing throughout the project.
+For now the best place is to check our open issues that we will be utilizing throughout the project.
 
 We like working with friendly and respectful people, to that end we insist that all participants follow a [Code of Conduct](https://github.com/friendlycode/codeofconduct/blob/master/README.md). Please make sure you read our Code of Conduct before participating.
 
