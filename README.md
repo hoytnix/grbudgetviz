@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/Allen616/openbudgetgr.svg?branch=master)](https://travis-ci.org/Allen616/openbudgetgr)
-[![Stories in Ready](https://badge.waffle.io/Allen616/openbudgetgr.svg?label=ready&title=Ready)](http://waffle.io/Allen616/openbudgetgr)
+[![Stories in Ready](https://badge.waffle.io/citizenlabsgr/grbudgetviz.svg?label=ready&title=Ready)](http://waffle.io/citizenlabsgr/grbudgetviz)
 
 # Open Budget: Grand Rapids, MI
 
