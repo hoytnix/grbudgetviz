@@ -2,7 +2,7 @@
 
 ##Active Development
 
-As of October 2015, it's happening on the `master` branch.
+As of October 2016, it's happening on the `master` branch.
 
 ---
 
@@ -11,7 +11,7 @@ __Fork me!__
 Fork and clone the project!
 
 ```
-git clone git@github.com:[your-user]/openbudgetoakland.git
+git clone git@github.com:[your-user]/grbudgetviz.git
 ```
 
 - cd, checkout to branch
@@ -65,7 +65,7 @@ This project is coded with:
 
 ### Adding additional datasets to the Flow diagram page
 
-This chart takes as input the full budget datatable from data.oaklandnet.com
+This chart takes as input the full budget datatable from [data.grcity.us](http://data.grcity.us)
 (in CSV format)
 
 Right now the 2015-17 Proposed page is an unpublished placeholder, pending the data release. When the data becomes available:
